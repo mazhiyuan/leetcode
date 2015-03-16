@@ -40,7 +40,7 @@ public class Longest_Valid_Parentheses_successive {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Longest_Valid_Parentheses_successive r = new Longest_Valid_Parentheses_successive();
-		System.out.print(r.longestValidParentheses("()(()"));
+		System.out.print(r.longestValidParentheses("()(()))("));
 //		Thread.MAX_
 	}
 }

@@ -2,19 +2,16 @@
  *
  */
 package zhiyuan.leetcode;
-
-import java.util.Stack;
-
 /**
  * @author mazhiyuan
- * @version Given a string containing just the characters '(' and ')', find the
- *          length of the longest valid (well-formed) parentheses substring.
- *          <p/>
- *          For "(()", the longest valid parentheses substring is "()", which
- *          has length = 2.
- *          <p/>
- *          Another example is ")()())", where the longest valid parentheses
- *          substring is "()()", which has length = 4.
+ *         Given a string containing just the characters '(' and ')', find the
+ *         length of the longest valid (well-formed) parentheses substring.
+ *         <p/>
+ *         For "(()", the longest valid parentheses substring is "()", which
+ *         has length = 2.
+ *         <p/>
+ *         Another example is ")()())", where the longest valid parentheses
+ *         substring is "()()", which has length = 4.
  */
 class MyStack<T> {
     private Object stack[];

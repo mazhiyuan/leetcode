@@ -23,5 +23,18 @@ public class Number_of_1_Bits {
 
     public static void main(String[] args) {
         System.out.println(new Number_of_1_Bits().hammingWeight(12));
+        //斐波那契
+        int f=0;
+        int g=1;
+        for(int i=0;i<=15;i++){
+            System.out.println(f);
+            f=f+g;
+            g=f-g;
+        }
+
+        String s="";
+        for(int n=10;n>0;n/=2)
+            s+=n%2;
+        System.out.println(s);
     }
 }
